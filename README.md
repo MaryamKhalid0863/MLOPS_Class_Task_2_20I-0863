@@ -66,11 +66,11 @@ print(classroom.getClassName())
 
 ## Running Tests
 This project uses pytest for testing. To run the tests, use the following command:
-   ```sh
+```sh
    pytest test.py
 
 Alternatively, you can use the Makefile:
-   ```sh
+```sh
    make test
 
 ## Continuous Integration
