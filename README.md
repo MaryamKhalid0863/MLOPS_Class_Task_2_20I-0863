@@ -67,11 +67,11 @@ print(classroom.getClassName())
 ## Running Tests
 This project uses pytest for testing. To run the tests, use the following command:
    ```sh
-            pytest test.py
+   pytest test.py
 
 Alternatively, you can use the Makefile:
    ```sh
-        make test
+   make test
 
 ## Continuous Integration
 This project is configured with GitHub Actions for continuous integration. On every push to the repository, GitHub Actions will automatically set up a Python environment, install dependencies, and run the test suite.
