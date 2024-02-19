@@ -14,4 +14,8 @@ requirements.txt: Lists pytest as a dependency for running the unit tests.
 
 ![NANO ](https://github.com/MaryamKhalid0863/MLOPS_Class_Task_2_20I-0863/assets/159745729/49801c54-962f-42ce-9fa5-421fe8b331af)
 
+### 3. Github Workflows
+Github Workflow is created named test.yml and run the jobs.
+
+![SUCCESS](https://github.com/MaryamKhalid0863/MLOPS_Class_Task_2_20I-0863/assets/159745729/7009da49-f1b3-4b5b-bdc1-1a6ae58378d6)
 
