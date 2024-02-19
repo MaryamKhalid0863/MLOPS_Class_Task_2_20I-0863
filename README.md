@@ -17,5 +17,66 @@ requirements.txt: Lists pytest as a dependency for running the unit tests.
 ### 3. Github Workflows
 Github Workflow is created named test.yml and run the jobs.
 
-![SUCCESS](https://github.com/MaryamKhalid0863/MLOPS_Class_Task_2_20I-0863/assets/159745729/7009da49-f1b3-4b5b-bdc1-1a6ae58378d6)
+![SUCCESS](https://github.com/MaryamKhalid0863/MLOPS_Class_Task_2_20I-0863/assets/159745729/739b8202-7df4-4aea-bf91-b78d13c73269)
+
+# StudentsInMLOps Project
+
+This project is designed to demonstrate a simple Python class implementation for managing student enrollments in an MLOps course. It includes a `StudentsInMLOps` class with methods to enroll and drop students, get total class strength, and retrieve the class name. Automated tests using pytest verify the functionality of these methods.
+
+## Features
+
+- **Enroll Students:** Add students to the class total.
+- **Drop Students:** Remove students from the class total.
+- **Get Total Strength:** Return the current number of students.
+- **Get Class Name:** Return the name of the class.
+
+Additionally, this project is configured with GitHub Actions to automate testing on every push, ensuring code integrity through continuous integration.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.6 or higher
+- Git
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/MaryamKhalid0863/MLOPS_Class_Task_2_20I-0863
+
+## Usage
+To use the StudentsInMLOps class in your Python code, simply import the class from the main.py file.
+from main import StudentsInMLOps
+
+### Create an instance of the class
+classroom = StudentsInMLOps()
+
+### Enroll students
+classroom.enrollStudents(5)
+
+### Drop students
+classroom.dropStudents(2)
+
+### Get total strength
+print(classroom.getTotalStrength())
+
+### Get class name
+print(classroom.getClassName())
+
+## Running Tests
+This project uses pytest for testing. To run the tests, use the following command:
+pytest test.py
+
+Alternatively, you can use the Makefile:
+make test
+
+## Continuous Integration
+This project is configured with GitHub Actions for continuous integration. On every push to the repository, GitHub Actions will automatically set up a Python environment, install dependencies, and run the test suite.
+
+## License
+This project is open-sourced under the MIT License. See the LICENSE file for more details.
+
+
+
 
