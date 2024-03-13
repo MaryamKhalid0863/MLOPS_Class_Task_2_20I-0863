@@ -81,7 +81,12 @@ Added the jenkins file in which jobs are mentioned.
 ## Added the URL
 Added the puvlic URL in payload URL at the time of webhook creation on github. 
 
+![payload ur;](https://github.com/MaryamKhalid0863/MLOPS_Class_Task_2_20I-0863/assets/159745729/95af2a07-01a4-466e-9a70-a42153bd66ea)
 
+## Auto execution of Job
+By creating webhook and adding the payload URL, the job on jenkins is automatically executed when commiting anything on Github.
+
+![job executed ayuto](https://github.com/MaryamKhalid0863/MLOPS_Class_Task_2_20I-0863/assets/159745729/d4e0a69e-d5e4-485c-b074-b1180da3797e)
 
 ## License
 This project is open-sourced under the MIT License. See the LICENSE file for more details.
