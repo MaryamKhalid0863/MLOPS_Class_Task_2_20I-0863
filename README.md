@@ -71,7 +71,17 @@ pytest test.py
 ## Continuous Integration
 This project is configured with GitHub Actions for continuous integration. On every push to the repository, GitHub Actions will automatically set up a Python environment, install dependencies, and run the test suite.
 
-## Jenkins File Added and the job is automated on jenkis
+## Jenkins File
+Added the jenkins file in which jobs are mentioned. 
+
+## Created Public Url by ngrok
+
+![ngrok](https://github.com/MaryamKhalid0863/MLOPS_Class_Task_2_20I-0863/assets/159745729/0ca74e90-7ec6-4bec-809e-b522a4befd77)
+
+## Added the URL
+Added the puvlic URL in payload URL at the time of webhook creation on github. 
+
+
 
 ## License
 This project is open-sourced under the MIT License. See the LICENSE file for more details.
