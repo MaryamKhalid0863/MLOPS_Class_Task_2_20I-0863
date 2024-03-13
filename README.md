@@ -71,6 +71,7 @@ pytest test.py
 ## Continuous Integration
 This project is configured with GitHub Actions for continuous integration. On every push to the repository, GitHub Actions will automatically set up a Python environment, install dependencies, and run the test suite.
 
+## Jenkins File Added and the job is automated on jenkis
 
 ## License
 This project is open-sourced under the MIT License. See the LICENSE file for more details.
