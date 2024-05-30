@@ -1,4 +1,4 @@
-# MLOPS_Class_Task_2_20I-0863
+# MLOPS_Class_Task_3_20I-0863
 ##  Objective
 The primary goal was to establish a GitHub repository for the development and testing of a Python class named StudentsInMLOps. This class is designed to manage student enrollments in a hypothetical MLOps course, allowing for student enrollment, deregistration, and querying of total enrollment and class name. Automated testing using pytest was integrated to ensure the reliability of the class methods. The project was further configured to utilize GitHub Actions for continuous integration, automatically running tests upon each push to the repository.
 ## Tasks Completed
